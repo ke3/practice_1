@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+h1 {
+  color: #000;
+}
+.test {
+    color: #0f0;
+    width: 70%;
+}
+img{
+    width: 70%;
+}
+.box, .box2
+    {width: 100px;
+    height: 50px;
+    background-color: #aaa;
+    border: 3px solid #000;
+    padding: 50px; 
+    margin: 20px;
+}
+
+a2 {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+.buttons, *::before, *::after{
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #1840ff;
+    color:#fff;
+    transition: 0.3s;
+}
+
+@media screen and (min-width: 769px) {
+    .buttons:hover{ 
+    opacity: 0.7;
+}}
+
+.buttons2 {
+    background: rgb(255, 110, 248);
+    color:#1840ff;
+    border: 3px solid #1840ff;
+}
+
+
+.buttons:not(:first-of-type) {
+    margin-top: 20px;
+}
